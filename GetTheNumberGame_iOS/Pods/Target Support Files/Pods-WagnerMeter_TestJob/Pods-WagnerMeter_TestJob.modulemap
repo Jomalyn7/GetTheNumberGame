@@ -1,0 +1,6 @@
+framework module Pods_WagnerMeter_TestJob {
+  umbrella header "Pods-WagnerMeter_TestJob-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests : NSObject
+@end
+@implementation PodsDummy_Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests
+@end

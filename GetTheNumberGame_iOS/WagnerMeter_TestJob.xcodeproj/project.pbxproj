@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2345748B04D64F1ACDF7AB74 /* Pods_WagnerMeter_TestJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80849560375A187D08E55F1F /* Pods_WagnerMeter_TestJob.framework */; };
+		6530D8E087924D28190CFE7C /* Pods_WagnerMeter_TestJobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2654C620E59F074BC244636C /* Pods_WagnerMeter_TestJobTests.framework */; };
+		8B9AC87FE7D4A0D631FA4773 /* Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB29B6434B1550CEAB3177 /* Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D6131C2D4846740087235D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D613032D4846720087235D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D6130A2D4846720087235D;
+			remoteInfo = WagnerMeter_TestJob;
+		};
+		D0D613262D4846740087235D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D613032D4846720087235D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D6130A2D4846720087235D;
+			remoteInfo = WagnerMeter_TestJob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1B9AC0352C23FA7821FF6F /* Pods-WagnerMeter_TestJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJobTests.debug.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJobTests/Pods-WagnerMeter_TestJobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2654C620E59F074BC244636C /* Pods_WagnerMeter_TestJobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WagnerMeter_TestJobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A59252D0BA8A36C385F69DA /* Pods-WagnerMeter_TestJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJob.debug.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJob/Pods-WagnerMeter_TestJob.debug.xcconfig"; sourceTree = "<group>"; };
+		44AE476BA0454AC8037D72E0 /* Pods-WagnerMeter_TestJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJobTests.release.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJobTests/Pods-WagnerMeter_TestJobTests.release.xcconfig"; sourceTree = "<group>"; };
+		65716AD597F77F1992F3F6AC /* Pods-WagnerMeter_TestJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJob.release.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJob/Pods-WagnerMeter_TestJob.release.xcconfig"; sourceTree = "<group>"; };
+		679AF9D5232BE4171768D53F /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.debug.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80849560375A187D08E55F1F /* Pods_WagnerMeter_TestJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WagnerMeter_TestJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB6C92669BBBEC7220AED93 /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.release.xcconfig"; path = "Target Support Files/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8DB29B6434B1550CEAB3177 /* Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D6130B2D4846720087235D /* WagnerMeter_TestJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagnerMeter_TestJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D6131B2D4846740087235D /* WagnerMeter_TestJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagnerMeter_TestJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D613252D4846740087235D /* WagnerMeter_TestJobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagnerMeter_TestJobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D0D6130D2D4846720087235D /* WagnerMeter_TestJob */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WagnerMeter_TestJob;
+			sourceTree = "<group>";
+		};
+		D0D6131E2D4846740087235D /* WagnerMeter_TestJobTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WagnerMeter_TestJobTests;
+			sourceTree = "<group>";
+		};
+		D0D613282D4846740087235D /* WagnerMeter_TestJobUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WagnerMeter_TestJobUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D613082D4846720087235D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345748B04D64F1ACDF7AB74 /* Pods_WagnerMeter_TestJob.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613182D4846740087235D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D8E087924D28190CFE7C /* Pods_WagnerMeter_TestJobTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613222D4846740087235D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9AC87FE7D4A0D631FA4773 /* Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783C9F876317C416EF0EB4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A59252D0BA8A36C385F69DA /* Pods-WagnerMeter_TestJob.debug.xcconfig */,
+				65716AD597F77F1992F3F6AC /* Pods-WagnerMeter_TestJob.release.xcconfig */,
+				679AF9D5232BE4171768D53F /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.debug.xcconfig */,
+				8AB6C92669BBBEC7220AED93 /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.release.xcconfig */,
+				1A1B9AC0352C23FA7821FF6F /* Pods-WagnerMeter_TestJobTests.debug.xcconfig */,
+				44AE476BA0454AC8037D72E0 /* Pods-WagnerMeter_TestJobTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DB03288A40AE7EB682703F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80849560375A187D08E55F1F /* Pods_WagnerMeter_TestJob.framework */,
+				A8DB29B6434B1550CEAB3177 /* Pods_WagnerMeter_TestJob_WagnerMeter_TestJobUITests.framework */,
+				2654C620E59F074BC244636C /* Pods_WagnerMeter_TestJobTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D613022D4846720087235D = {
+			isa = PBXGroup;
+			children = (
+				D0D6130D2D4846720087235D /* WagnerMeter_TestJob */,
+				D0D6131E2D4846740087235D /* WagnerMeter_TestJobTests */,
+				D0D613282D4846740087235D /* WagnerMeter_TestJobUITests */,
+				D0D6130C2D4846720087235D /* Products */,
+				783C9F876317C416EF0EB4CA /* Pods */,
+				9DB03288A40AE7EB682703F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D6130C2D4846720087235D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6130B2D4846720087235D /* WagnerMeter_TestJob.app */,
+				D0D6131B2D4846740087235D /* WagnerMeter_TestJobTests.xctest */,
+				D0D613252D4846740087235D /* WagnerMeter_TestJobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D6130A2D4846720087235D /* WagnerMeter_TestJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D6132F2D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJob" */;
+			buildPhases = (
+				3027CD2046A398CDC218BCB7 /* [CP] Check Pods Manifest.lock */,
+				D0D613072D4846720087235D /* Sources */,
+				D0D613082D4846720087235D /* Frameworks */,
+				D0D613092D4846720087235D /* Resources */,
+				F9DBBFDBEA1430E3084E56CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0D6130D2D4846720087235D /* WagnerMeter_TestJob */,
+			);
+			name = WagnerMeter_TestJob;
+			productName = WagnerMeter_TestJob;
+			productReference = D0D6130B2D4846720087235D /* WagnerMeter_TestJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D6131A2D4846740087235D /* WagnerMeter_TestJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D613322D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJobTests" */;
+			buildPhases = (
+				5EFE8FCDD0466627F5A0475A /* [CP] Check Pods Manifest.lock */,
+				D0D613172D4846740087235D /* Sources */,
+				D0D613182D4846740087235D /* Frameworks */,
+				D0D613192D4846740087235D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D6131D2D4846740087235D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0D6131E2D4846740087235D /* WagnerMeter_TestJobTests */,
+			);
+			name = WagnerMeter_TestJobTests;
+			productName = WagnerMeter_TestJobTests;
+			productReference = D0D6131B2D4846740087235D /* WagnerMeter_TestJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0D613242D4846740087235D /* WagnerMeter_TestJobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D613352D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJobUITests" */;
+			buildPhases = (
+				01869B01E89D26F9969A355A /* [CP] Check Pods Manifest.lock */,
+				D0D613212D4846740087235D /* Sources */,
+				D0D613222D4846740087235D /* Frameworks */,
+				D0D613232D4846740087235D /* Resources */,
+				3D6AF441A1DB27CE1D973993 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D613272D4846740087235D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0D613282D4846740087235D /* WagnerMeter_TestJobUITests */,
+			);
+			name = WagnerMeter_TestJobUITests;
+			productName = WagnerMeter_TestJobUITests;
+			productReference = D0D613252D4846740087235D /* WagnerMeter_TestJobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D613032D4846720087235D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D0D6130A2D4846720087235D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D0D6131A2D4846740087235D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D0D6130A2D4846720087235D;
+					};
+					D0D613242D4846740087235D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D0D6130A2D4846720087235D;
+					};
+				};
+			};
+			buildConfigurationList = D0D613062D4846720087235D /* Build configuration list for PBXProject "WagnerMeter_TestJob" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D613022D4846720087235D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D0D6130C2D4846720087235D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D6130A2D4846720087235D /* WagnerMeter_TestJob */,
+				D0D6131A2D4846740087235D /* WagnerMeter_TestJobTests */,
+				D0D613242D4846740087235D /* WagnerMeter_TestJobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D613092D4846720087235D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613192D4846740087235D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613232D4846740087235D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01869B01E89D26F9969A355A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3027CD2046A398CDC218BCB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagnerMeter_TestJob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D6AF441A1DB27CE1D973993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests/Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFE8FCDD0466627F5A0475A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagnerMeter_TestJobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DBBFDBEA1430E3084E56CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob/Pods-WagnerMeter_TestJob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob/Pods-WagnerMeter_TestJob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WagnerMeter_TestJob/Pods-WagnerMeter_TestJob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D613072D4846720087235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613172D4846740087235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D613212D4846740087235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D6131D2D4846740087235D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D6130A2D4846720087235D /* WagnerMeter_TestJob */;
+			targetProxy = D0D6131C2D4846740087235D /* PBXContainerItemProxy */;
+		};
+		D0D613272D4846740087235D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D6130A2D4846720087235D /* WagnerMeter_TestJob */;
+			targetProxy = D0D613262D4846740087235D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0D6132D2D4846740087235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0D6132E2D4846740087235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D613302D4846740087235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59252D0BA8A36C385F69DA /* Pods-WagnerMeter_TestJob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WagnerMeter_TestJob/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJob";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D613312D4846740087235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65716AD597F77F1992F3F6AC /* Pods-WagnerMeter_TestJob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WagnerMeter_TestJob/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJob";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0D613332D4846740087235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1B9AC0352C23FA7821FF6F /* Pods-WagnerMeter_TestJobTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJobTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagnerMeter_TestJob.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WagnerMeter_TestJob";
+			};
+			name = Debug;
+		};
+		D0D613342D4846740087235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AE476BA0454AC8037D72E0 /* Pods-WagnerMeter_TestJobTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJobTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagnerMeter_TestJob.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WagnerMeter_TestJob";
+			};
+			name = Release;
+		};
+		D0D613362D4846740087235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679AF9D5232BE4171768D53F /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJobUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WagnerMeter_TestJob;
+			};
+			name = Debug;
+		};
+		D0D613372D4846740087235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB6C92669BBBEC7220AED93 /* Pods-WagnerMeter_TestJob-WagnerMeter_TestJobUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F3XB28F6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.lyn.WagnerMeter-TestJobUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WagnerMeter_TestJob;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D613062D4846720087235D /* Build configuration list for PBXProject "WagnerMeter_TestJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D6132D2D4846740087235D /* Debug */,
+				D0D6132E2D4846740087235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D6132F2D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D613302D4846740087235D /* Debug */,
+				D0D613312D4846740087235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D613322D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D613332D4846740087235D /* Debug */,
+				D0D613342D4846740087235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D613352D4846740087235D /* Build configuration list for PBXNativeTarget "WagnerMeter_TestJobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D613362D4846740087235D /* Debug */,
+				D0D613372D4846740087235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D613032D4846720087235D /* Project object */;
+}

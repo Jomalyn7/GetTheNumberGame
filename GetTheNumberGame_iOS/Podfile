@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WagnerMeter_TestJob' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WagnerMeter_TestJob
+  pod 'Firebase'
+    pod 'Firebase/Database'
+
+  target 'WagnerMeter_TestJobTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WagnerMeter_TestJobUITests' do
+    # Pods for testing
+  end
+
+end
